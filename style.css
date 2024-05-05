@@ -450,3 +450,39 @@ button:hover{
     }
     
 }
+
+
+
+/* Add media query for iPhone 14 Pro Max */
+@media only screen 
+    and (min-device-width: 428px) 
+    and (max-device-width: 926px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        /* Adjustments for iPhone 14 Pro Max */
+        
+        #nav {
+            padding: 5vh 5%; /* Reduce padding for smaller screens */
+        }
+
+        #nav img {
+            width: 8vw; /* Adjusted width for smaller screens */
+        }
+
+        #heading h1 {
+            font-size: 9vw; /* Adjusted font size for smaller screens */
+        }
+
+        #chhotiheadings h5 {
+            font-size: 1.2vw; /* Adjusted font size for smaller screens */
+        }
+
+        #herofooter a {
+            font-size: large; /* Adjusted font size for smaller screens */
+        }
+
+        #footer a {
+            font-size: 12px; /* Adjusted font size for smaller screens */
+        }
+
+        /* Add more adjustments as needed for other elements */
+}
